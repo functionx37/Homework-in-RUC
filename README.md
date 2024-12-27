@@ -1,3 +1,3 @@
 # My Progamming Homework
  
-Personal collection of programming homework on yoj and coursewares.
+Personal collection of programming homework on yoj and coursewares. Only for backup.
