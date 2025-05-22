@@ -1,3 +1,9 @@
-# Homework of Introductory Programming
+# Homework of RUC
  
-Personal collection of programming homework on yoj and coursewares. Only for backup.
+Personal back-up of homework when studying computer science in RUC.
+
+Homework of RUC  
+├─Introductory Progamming  
+│  ├─Codes  
+│  └─Coursewares  
+└─Python Programming for Artificial Intelligence
