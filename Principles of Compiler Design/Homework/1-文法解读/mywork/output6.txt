@@ -1,0 +1,6 @@
+114514
+positive
+notone
+non-neg
+s = 4
+1 + 2 = 3

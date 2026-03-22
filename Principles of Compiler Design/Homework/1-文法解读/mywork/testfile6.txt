@@ -1,0 +1,37 @@
+int main() {
+    int n;
+    n = getint();
+
+    ;
+    printf("%d\n",n);
+    if (n > 0) {
+        printf("positive\n");
+    } else {
+        printf("not positive\n");
+    }
+
+    if (n == 0) printf("zero\n");
+    if (n != 1) printf("notone\n");
+    if (n <= 10) printf("small\n");
+    if (n >= 0) printf("non-neg\n");
+    
+
+    int i = 0, s = 0;
+    while (i < n) {
+        if (i == 5) break;
+        if (i % 2 == 0) {
+            i = i + 1;
+            continue;
+        }
+        s = s + i;
+        i = i + 1;
+    }
+    if(!n){
+        
+    }
+
+    printf("s = %d\n", s);
+    printf("%d + %d = %d\n", 1, 2, 1 + 2);
+
+    return 0;
+}

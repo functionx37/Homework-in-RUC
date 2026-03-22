@@ -1,0 +1,27 @@
+const int ca[3] = {10, 20, 30};
+
+int sumArr(int a[], int n) {
+    int s = 0, i = 0;
+    while (i < n) {
+        s = s + a[i];
+        i = i + 1;
+    }
+    return s;
+}
+
+int main() {
+    printf("114514\n");
+    int a[4];
+    int b[3] = {1, 2, 3};
+
+    a[0] = 5;
+    a[1] = 6;
+    a[2] = 7;
+    a[3] = 8;
+
+    printf("%d\n", sumArr(a, 4));
+    printf("%d\n", sumArr(b, 3));
+    printf("%d\n", ca[2]);
+
+    return 0;
+}

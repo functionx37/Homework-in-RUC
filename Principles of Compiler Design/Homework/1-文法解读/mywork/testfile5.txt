@@ -1,0 +1,34 @@
+void hello() {
+    printf("hello\n");
+    return;
+}
+
+int square(int x) {
+    return x * x;
+}
+
+int add(int a, int b, int c) {
+    return a + b + c;
+}
+
+int fact(int n) {
+    if (n <= 1) return 1;
+    return n * fact(n - 1);
+}
+
+int main() {
+    printf("114514\n");
+    hello();
+    printf("%d\n", square(4));
+    printf("%d\n", add(1, 2, 3));
+    printf("%d\n", fact(5));
+
+    {}
+
+    {
+        int t = 1;
+        t = t + 1;
+    }
+
+    return 0;
+}

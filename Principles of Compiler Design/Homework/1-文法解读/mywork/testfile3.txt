@@ -1,0 +1,42 @@
+const int cm[2][2] = {{1, 2}, {3, 4}};
+
+int sum2d(int m[][2], int rows) {
+    int s = 0, i = 0;
+    while (i < rows) {
+        int j = 0;
+        while (j < 2) {
+            s = s + m[i][j];
+            j = j + 1;
+        }
+        i = i + 1;
+    }
+    return s;
+}
+
+void printRow(int row[], int n) {
+    int i = 0;
+    while (i < n) {
+        printf("%d", row[i]);
+        i = i + 1;
+    }
+    printf("\n");
+}
+
+int main() {
+    printf("114514\n");
+    int m[2][2];
+    int m2[2][2] = {{5, 6}, {7, 8}};
+
+    m[0][0] = 10;
+    m[0][1] = 20;
+    m[1][0] = 30;
+    m[1][1] = 40;
+
+    printf("%d\n", sum2d(m, 2));
+    printf("%d\n", sum2d(m2, 2));
+    printf("%d\n", cm[1][1]);
+
+    printRow(m2[0], 2);
+
+    return 0;
+}

@@ -1,0 +1,28 @@
+int func()
+{
+    printf("called\n");
+    return 1;
+}
+
+int main()
+{
+    printf("114514\n");
+    int a = 5, b = 0;
+    if (b != 0 && a / b > 1)
+    {
+        printf("no\n");
+    }
+    else
+    {
+        printf("and short\n");
+    }
+    if (a > 0 || func())
+    {
+        printf("or short\n");
+    }
+    if (a > 0 && b == 0 || a < 0)
+    {
+        printf("combine\n");
+    }
+    return 0;
+}

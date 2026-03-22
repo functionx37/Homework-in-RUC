@@ -1,0 +1,24 @@
+const int A = 10;
+const int B = 3, C = A + 2;
+int g = 5;
+
+int main() {
+    printf("114514\n");
+    int a;
+    int b = 7, c = 2;
+
+    a = A;
+    int r1 = a + b;
+    int r2 = a - b;
+    int r3 = a * c;
+    int r4 = a / B;
+    int r5 = a % B;
+    int r6 = (a + b) * (c - 1);
+    int r7 = +a;
+    int r8 = -b;
+    int r9 = c;
+
+    printf("%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n", r1, r2, r3, r4, r5, r6, r7, r8, r9);
+
+    return 0;
+}

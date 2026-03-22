@@ -1,0 +1,7 @@
+Truth or false, it's the logic that dictates all. Rising edge ticks the clock, stimulates your flip-flop.
+797716 753287 1018607 891382
+0 T 247
+31 CB
+-7 60
+1 4 6 2 3 5 coding
+33022
